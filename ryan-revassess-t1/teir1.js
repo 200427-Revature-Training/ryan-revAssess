@@ -7,11 +7,11 @@ const a = (param) =>{
 
 
 const b = (...args)=>{
-    let sum = 0
+    let product = 1
     args.forEach(a => {
-        sum+=a;
+        product*=a;
     });
-    return sum;
+    return product;
 }
 
 
